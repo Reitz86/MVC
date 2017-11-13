@@ -5,7 +5,9 @@ public class Listener extends Observer {
 	private Radio radio;
 
 	public Listener(String name, Radio radio) { this.name = name;
-		this.radio = radio; radio.attach(this); this.update();
+		this.radio = radio;
+		radio.attach(this); 
+		this.update();
 	}
 	
 	public void update() {
