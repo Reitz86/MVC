@@ -1,4 +1,4 @@
-package uebung3;
+package CI.src.uebung3;
 
 public class Fibonacci {
 	

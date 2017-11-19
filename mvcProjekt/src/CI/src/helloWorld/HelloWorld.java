@@ -1,4 +1,4 @@
-package helloWorld;
+package CI.src.helloWorld;
 
 public class HelloWorld {
 

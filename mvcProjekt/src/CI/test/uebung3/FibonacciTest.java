@@ -1,10 +1,11 @@
-package uebung3;
+package CI.test.uebung3;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import uebung3.Fibonacci;
+import CI.src.uebung3.Fibonacci;
 
 public class FibonacciTest {
 	
